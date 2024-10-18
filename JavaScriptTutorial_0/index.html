@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script type="text/javascript">
+        //alert('Önce ben çalıştım');
+        
+        var sayi = 5;
+        console.log('mesaj');
+        console.log(`${sayi} değeri ${typeof(sayi)} tipindedir.`);
+        sayi = "5";
+        console.log(`${sayi} değeri ${typeof(sayi)} tipindedir.`);
+        sayi = true;
+        console.log(`${sayi} değeri ${typeof(sayi)} tipindedir.`);
+
+        console.log(document.getElementById("content"));
+        alert('şuan body oluşmadı');
+
+        var x = document.getElementById("content").innerText;
+        console.log(x);
+    </script> -->
+</head>
+<body>
+    <input type="button" value="Click Me!" onclick="alert('Hello world');"/>
+    <div id="content">Lorem ipsum  <span style="color: brown;">dolor</span> sit amet.</div>
+    <script type="text/javascript">
+        console.log(document.getElementById("content"));
+        alert('body oluştu');
+        var contentText = document.getElementById("content").innerText;
+        console.log(contentText);
+
+        var contentInnerHtml= document.getElementById("content").innerHTML;
+        console.log(contentInnerHtml);
+    </script>
+</body>
+</html>
