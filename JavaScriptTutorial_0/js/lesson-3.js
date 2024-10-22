@@ -111,11 +111,13 @@ function TarihselOrnekler()
     bugun.setDate(bugun.getDate() + 7);
     bugun.setMonth((bugun.getMonth() +7));
     bugun.setFullYear((bugun.getFullYear() + 7));
-    console.log(bugun.getMonth);
+    console.log(bugun.getDate());
+    console.log(bugun.getMonth());
+    console.log(bugun.getFullYear());
 
 }
 
-//TarihselOrnekler();
+TarihselOrnekler();
 
 function KararYapilari()
 {
